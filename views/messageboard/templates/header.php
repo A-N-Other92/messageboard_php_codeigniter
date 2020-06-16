@@ -29,7 +29,6 @@
  
 </style>
 
-
 <div class="container-fluid">
 
  <div class="row row-red">
@@ -38,7 +37,7 @@
      <!--  <div class="col-md-4 ">ccc</div> -->
 
          <?php  if($pagename != "Register") {
-                   if(empty($_SESSION['loggedin'])) {
+                  if(empty($_SESSION['loggedin'])) {   
                       echo '<div class="col-md-2 no-padding"><a href="' . base_url('index.php/messageboard/register') . '"><button type="button" class="btn btn-danger btn-lg btn-block button-text-black"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Register</button></a></div>';
                    }
                    if(isset($_SESSION['loggedin'])) {
@@ -63,6 +62,3 @@
 
 
  </div>
-
-
- 
