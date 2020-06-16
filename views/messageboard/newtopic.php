@@ -12,8 +12,6 @@
              <textarea class="form-control" name="topicbox" rows="1"  placeholder="Enter the name of the thread (max 60 chars)" maxlength="60"></textarea>
           </div>
 
-
-
           <input type="submit" name="submit" value="Submit message" class="btn btn-default" />
 
       </form>
